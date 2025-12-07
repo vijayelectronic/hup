@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vijayelectronics.github.io/sitemap.xml

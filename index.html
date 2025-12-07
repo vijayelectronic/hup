@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Electronics Unnao | CCTV, TV & Laptop Repair Services</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Vijay Electronics Unnao - Expert CCTV Installation, LED TV, Laptop & Desktop Repair. Call 8090090051. Best Service in Unnao/Kanpur.">
+    <meta name="keywords"
+        content="Vijay Electronics Unnao, cp plus camera, cctv camera service, hikvision camera, wifi camera, all keywords google search, LED TV Repair Unnao, Laptop Repair Unnao, Computer Service, Best CCTV Shop Unnao, Security Systems">
+    <meta name="author" content="Vijay Electronics">
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="PASTE_YOUR_GOOGLE_CODE_HERE" />
+    <meta property="og:title" content="Vijay Electronics Unnao | Complete Security & Repair Solutions">
+    <meta property="og:image" content="assets/banner.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .lang-switch {
+            display: flex;
+            gap: 5px;
+            margin-right: 15px;
+        }
+
+        .lang-btn {
+            background: none;
+            border: 1px solid var(--text-color);
+            color: var(--text-color);
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        .lang-btn.active {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-camera-cctv text-primary"></i>
+                <span style="color:var(--primary-color)">Vijay</span><span
+                    style="color:var(--secondary-color)">Electronics</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+                <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+
+                <li class="lang-switch">
+                    <button class="lang-btn active" data-lang="en" onclick="changeLanguage('en')">EN</button>
+                    <button class="lang-btn" data-lang="hi" onclick="changeLanguage('hi')">HI</button>
+                </li>
+
+                <li class="theme-toggle" id="themeToggle"><i class="fa-solid fa-moon"></i></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <header class="hero">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: url('assets/banner.png');"></div>
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('assets/cctv.png');"></div>
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('assets/repair.png');"></div>
+        </div>
+
+        <div class="slide-content">
+            <h2><span data-i18n="hero_title_1">Secure Your World with</span> <span class="text-primary"
+                    data-i18n="hero_title_2">Vijay Electronics</span></h2>
+            <p data-i18n="hero_subtitle">Unnao's #1 CCTV, LED TV & Laptop Repair Center.</p>
+            <div style="display:flex; justify-content:center; gap:15px;">
+                <a href="#contact" class="btn btn-primary" data-i18n="btn_book">Book Repair</a>
+                <a href="products.html" class="btn btn-secondary" data-i18n="btn_view_products">View Products</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Essential Services -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 50px;" data-i18n="services_title">Our Premium Services</h2>
+
+            <div class="features-grid">
+                <!-- Service 1 -->
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-video feature-icon"></i>
+                    <h3 data-i18n="service_cctv_title">CCTV Installation</h3>
+                    <p data-i18n="service_cctv_desc">Dome, Bullet, PTZ & IP Cameras. Mobile View Config. CP Plus,
+                        Hikvision & More.</p>
+                    <a href="services.html" class="text-primary" data-i18n="learn_more">Learn More &rarr;</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-tv feature-icon"></i>
+                    <h3 data-i18n="service_tv_title">LED TV Repair</h3>
+                    <p data-i18n="service_tv_desc">Panel replacement, Backlight issues, Sound problems. Expert
+                        diagnosis.</p>
+                    <a href="services.html" class="text-primary" data-i18n="learn_more">Learn More &rarr;</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-laptop-medical feature-icon"></i>
+                    <h3 data-i18n="service_laptop_title">Laptop & PC Repair</h3>
+                    <p data-i18n="service_laptop_desc">Screen replacement, Windows installation, Speed upgrade
+                        (SSD/RAM).</p>
+                    <a href="services.html" class="text-primary" data-i18n="learn_more">Learn More &rarr;</a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="feature-card glass">
+                    <i class="fa-solid fa-shield-halved feature-icon"></i>
+                    <h3 data-i18n="service_amc_title">AMC Services</h3>
+                    <p data-i18n="service_amc_desc">Annual Maintenance Contracts for schools, offices, and homes.</p>
+                    <a href="services.html" class="text-primary" data-i18n="learn_more">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands & Keywords SEO Section -->
+    <section class="section-padding">
+        <div class="container text-center">
+            <h2 style="margin-bottom: 30px;">Brands We Deal In</h2>
+            <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; opacity: 0.8;">
+                <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color);">CP Plus Camera</span>
+                <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color);">Hikvision Camera</span>
+                <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color);">Dahua</span>
+                <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color);">WiFi Camera</span>
+                <span style="font-size: 1.2rem; font-weight: 600; color: var(--text-color);">Samsung/LG/Sony (TV
+                    Repair)</span>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.6;">
+                We provide the best <strong>CCTV Camera Service</strong>, <strong>Laptop Repair</strong>, and
+                <strong>LED TV Repair</strong> in Unnao.
+            </p>
+        </div>
+    </section>
+
+    <!-- Map & Location -->
+    <section class="section-padding" style="background: var(--card-bg);">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom:20px;" data-i18n="visit_shop">Visit Our Shop</h2>
+            <p class="text-center" style="margin-bottom:40px;" data-i18n="shop_address">Purani Bazar, Unnao | Open: 9:00
+                AM - 9:00 PM</p>
+
+            <div class="map-container">
+                <!-- Embedding Unnao Google Map generic location as specific coordinates were not provided, centering on Unnao Purani Bazar area -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14285.67963464228!2d80.4789!3d26.5416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c387b927514a3%3A0x66a6a1656515a201!2sUnnao%2C%20Uttar%20Pradesh%20209801!5e0!3m2!1sen!2sin!4v1715000000000"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom:50px;" data-i18n="contact_title">Contact Us</h2>
+
+            <div class="contact-wrapper">
+                <div class="glass" style="padding:40px;">
+                    <h3 data-i18n="get_quote">Get a Quote / Book Service</h3>
+                    <p style="margin-bottom:20px; opacity:0.8;" data-i18n="fill_form">Fill the form or WhatsApp us
+                        directly.</p>
+
+                    <!-- Formspree Form -->
+                    <form action="https://formspree.io/f/xbjnqylg" method="POST" class="contact-form">
+                        <!-- Note: User needs to use their own Formspree URL. Using a placeholder or generic structure -->
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required data-i18n="form_name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Mobile Number" required data-i18n="form_phone">
+                        </div>
+                        <!-- Service Selection -->
+                        <div class="form-group">
+                            <select name="service"
+                                style="width:100%; padding:15px; background:rgba(255,255,255,0.1); border:1px solid rgba(128,128,128,0.3); border-radius:8px; color:var(--text-color);">
+                                <option value="" disabled selected data-i18n="form_select">Select Service</option>
+                                <option value="cctv">CCTV Installation</option>
+                                <option value="tv">LED TV Repair</option>
+                                <option value="laptop">Laptop/PC Repair</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="4" placeholder="Describe your issue..."
+                                data-i18n="form_msg"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="btn_send">Send Request</button>
+                    </form>
+                </div>
+
+                <div style="display:flex; flex-direction:column; justify-content:center;">
+                    <div class="glass" style="padding:30px; margin-bottom:20px;">
+                        <i class="fa-solid fa-phone text-secondary" style="font-size:1.5rem; margin-bottom:10px;"></i>
+                        <h4 data-i18n="call_us">Call Us</h4>
+                        <p><a href="tel:8090090051">8090090051</a></p>
+                    </div>
+
+                    <div class="glass" style="padding:30px; margin-bottom:20px;">
+                        <i class="fa-solid fa-envelope text-secondary"
+                            style="font-size:1.5rem; margin-bottom:10px;"></i>
+                        <h4 data-i18n="email_us">Email</h4>
+                        <p><a href="mailto:vijayelectronic689@gmail.com">vijayelectronic689@gmail.com</a></p>
+                    </div>
+
+                    <div class="glass" style="padding:30px;">
+                        <i class="fa-brands fa-whatsapp text-secondary"
+                            style="font-size:1.5rem; margin-bottom:10px;"></i>
+                        <h4 data-i18n="whatsapp_chat">WhatsApp Chat</h4>
+                        <p data-i18n="instant_support">Instant Support</p>
+                        <a href="https://wa.me/918090090051?text=Hi%20Vijay%20Electronics" class="text-primary"
+                            data-i18n="chat_now">Chat Now &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p data-i18n="footer_rights">&copy; 2024 Vijay Electronics Unnao. All rights reserved.</p>
+            <div style="margin-top:10px; font-size:0.9rem; opacity:0.7;">
+                <p data-i18n="designed_ai">Designed with AI</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918090090051" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Voice AI Floating Button -->
+    <button id="voiceAiFloat" class="voice-ai-float" title="Ask AI Assistant">
+        <i class="fa-solid fa-microphone"></i>
+    </button>
+
+    <!-- AI Chat Modal -->
+    <div id="aiModal" class="ai-modal">
+        <div class="ai-modal-header">
+            <h3 data-i18n="ai_modal_title"><i class="fa-solid fa-robot"></i> Vijay AI Assistant</h3>
+            <button id="closeAiModal" class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="aiChatBody" class="ai-chat-body">
+            <!-- Messages will appear here -->
+        </div>
+        <div id="typingIndicator" class="typing-indicator">Vijay AI is typing...</div>
+        <div class="ai-controls">
+            <input type="text" id="aiInput" class="ai-input" placeholder="Type or Speak..." data-i18n="ai_placeholder">
+            <button id="aiSendBtn" class="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="translations.js"></script>
+    <script src="voice-agent.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

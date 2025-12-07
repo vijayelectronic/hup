@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Vijay Electronics Unnao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-camera-cctv text-primary"></i>
+                <span style="color:var(--primary-color)">Vijay</span><span
+                    style="color:var(--secondary-color)">Electronics</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="text-primary">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li class="theme-toggle" id="themeToggle"><i class="fa-solid fa-moon"></i></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" style="min-height: 40vh; height: 40vh; background: var(--gradient-hero);">
+        <div class="container text-center" style="position:relative; z-index:2;">
+            <h1 style="font-size:3rem; color:white;">Security Products</h1>
+            <p style="color:rgba(255,255,255,0.8);">Top Brands: CP Plus, Hikvision, Dahua</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <!-- Filter/Category (Visual only for now) -->
+            <div style="display:flex; justify-content:center; gap:15px; margin-bottom:40px; flex-wrap:wrap;">
+                <button class="btn btn-primary">High Security CCTV</button>
+                <button class="btn btn-secondary">DVR/NVR Systems</button>
+            </div>
+
+            <div class="products-wrapper">
+                <!-- Product 1 -->
+                <div class="product-card glass">
+                    <div style="height:250px; overflow:hidden;">
+                        <!-- Using generic image if specific not available, utilizing same asset for demo -->
+                        <img src="assets/cctv.png" alt="2MP Dome Camera" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>2MP Dome/Bullet Camera</h3>
+                        <p style="opacity:0.8; font-size:0.9rem;">HD Quality, Night Vision, Weatherproof (Bullet).</p>
+                        <span class="price-tag">₹1200 - ₹1800</span>
+                        <a href="https://wa.me/918090090051?text=I%20am%20interested%20in%202MP%20Camera"
+                            class="btn btn-primary" style="margin-top:15px; width:100%; text-align:center;">Enquire
+                            Now</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card glass">
+                    <div style="height:250px; overflow:hidden; background:#000;">
+                        <img src="assets/cctv.png" alt="4 Channel DVR" class="product-img" style="object-fit:contain;">
+                    </div>
+                    <div class="product-info">
+                        <h3>4-Channel DVR</h3>
+                        <p style="opacity:0.8; font-size:0.9rem;">Supports 4 Cameras, HDMI Output, Mobile View.</p>
+                        <span class="price-tag">₹1800 - ₹2500</span>
+                        <a href="https://wa.me/918090090051?text=I%20am%20interested%20in%204%20Channel%20DVR"
+                            class="btn btn-primary" style="margin-top:15px; width:100%; text-align:center;">Enquire
+                            Now</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card glass">
+                    <div style="height:250px; overflow:hidden;">
+                        <img src="assets/cctv.png" alt="Wireless Kit" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>WiFi / IP Camera</h3>
+                        <p style="opacity:0.8; font-size:0.9rem;">Wireless, 360 Degree, Two-way Audio.</p>
+                        <span class="price-tag">₹2500+</span>
+                        <a href="https://wa.me/918090090051?text=I%20am%20interested%20in%20IP%20Camera"
+                            class="btn btn-primary" style="margin-top:15px; width:100%; text-align:center;">Enquire
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top:50px; text-align:center;" class="glass box-padding">
+                <h3>Installation Charges</h3>
+                <p>₹200 – ₹350 per camera</p>
+                <p style="font-size:0.8rem; margin-top:10px;">*Final price pending technician visit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/918090090051" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
